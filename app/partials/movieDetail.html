@@ -1,0 +1,16 @@
+
+<div class="panel panel-default">
+  <div id="heading"class="panel-heading"><h1>Details<h1></div>
+
+ <p id="posterbackground"><img id= "poster" src="{{detail.origin.Poster}}"></p>
+   <div class="panel-body" id="text">Year: {{detail.origin.Year}}  Actors: {{detail.origin.Actors}}  Genre: {{detail.origin.Genre}} <p id="plot"> Plot: {{detail.origin.Plot}}</p></div>
+
+ <p id="backhome"><a  ui-sref="movie1">Back to Home</a></p>
+
+</div>
+
+ 
+
+
+<div ui-view></div>
+

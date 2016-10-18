@@ -1,0 +1,82 @@
+
+.center{ text-align: center }
+
+#heading {
+	background-color: lightblue;
+
+}
+
+#movies {
+
+
+
+	text-align:center;
+	background-color: lightblue;
+
+}
+
+
+#background {
+
+	background-color: beige;
+
+
+}
+
+#h1 {
+
+
+	font-size: 80px;
+
+}
+
+#h2 {
+
+	font-size:40px;
+
+}
+
+#plot {
+
+	font-weight: bold;
+
+	text-align: center;
+
+font-size:20px;
+
+
+}
+
+#text {
+
+	font-weight:bold;
+	text-align: center;
+
+	background-color:beige;
+
+font-size:20px; 
+
+}
+
+
+#poster {
+
+ display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#posterbackground {
+
+	background-color:beige;
+
+}
+
+#backhome{
+
+text-align: center;
+
+}
+
+

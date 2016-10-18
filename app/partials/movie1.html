@@ -1,0 +1,40 @@
+
+<div class="panel panel-default">
+  <div id="movies" class="panel-head"><h1 id="h1">Movie Nerd</h1> <h2 id="h2">Search for Movies Here</h2> </div>
+</div>
+<div ui-view>
+	<div class="center">
+		<label  for="textinput">Search Movie</label>  
+
+		<input id="textinput" name="textinput" type="text" ng-model="vm.inputOne">
+
+		<button id="singlebutton" name="singlebutton" class="btn btn-primary" ng-click="vm.getMovies()">Click Me</button>
+
+
+	</div>
+
+	<div class="container-fluid">
+		<table id="total votes" class="table table-hover text-centered">
+
+			<td ng-model="vm.title"> 
+
+
+				<tr>
+					<th ng-repeat="name in vm.title"> 
+						<img src="{{name.Poster}}" ng-click="vm.getDetail"></img>
+						{{name.Title}},
+						Year:{{name.Year}}
+						(
+						<a ui-sref="movieDetail({detailId: name.imdbID})"> get me to movie details </a>
+						)
+
+						
+					</th>
+
+
+				</tr>
+			</td>
+		</table>
+	</div>
+</div>
+
